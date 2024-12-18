@@ -42,3 +42,5 @@ export const selectTravelCost=[
         icon: '🏦',
     }
 ]
+
+export const AI_PROMPT='Generate Travel Plan for location: {location}, for {totalDays} days for {groupSize} people with a {budget}, give me a hotels options list with hotelname, hotel address, price, hotel image url, geo cooridnates, rating, descriptions, and suggest itinerary with place name, place details, place image url, geo coordinates, ticket pricing, rating, time travel each of the location for {totalDays} days with each day plan with best time to visit, also suggest the same stuff but for restaurants in JSON format'
